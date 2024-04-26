@@ -13,6 +13,7 @@
 </ol>
 
 # PROGRAM:
+```
 def print_grid(grid):
     for i in range(9):
         for j in range(9):
@@ -82,6 +83,8 @@ if solve_sudoku(grid):
     print_grid(grid)
 else:
     print("No solution exists.")
+```
+
 
 # OUTPUT:
 ![image](https://github.com/Daniel-christal/19AI405ProjExp/assets/145742847/cb4f6eff-b696-424e-be15-7c8d318a81dc)
